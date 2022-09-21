@@ -1,2 +1,2 @@
 # Bazar-store-page
-An HTML and CSS Transformed Mockup
+An HTML and CSS Transformed Figma Mockup 
