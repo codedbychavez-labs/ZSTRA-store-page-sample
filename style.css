@@ -18,15 +18,38 @@ html, body {
 
 .navbar {
   justify-content: space-between;
+  align-items: center;
+  padding: 37px 0px 34px 0px;
 }
 
+.navbar a {
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #939393;
+}
+
+.navbar a.active {
+  color: #000000;
+}
+
+.navbar .logo a {
+  font-size: 40px;
+  color: #000000;
+}
+
+
 .hero {
-  background-color: lightblue;
-  height: 28rem;
+  background-color: #939393;
+  height: 568px;
 }
 
 .hero h1 {
   margin: auto;
+  font-weight: 400;
+  font-size: 60px;
+  text-transform: uppercase;
 }
 
 .cta {
