@@ -53,41 +53,70 @@ html, body {
 }
 
 .cta {
-  background-color: lightpink;
   height: 8rem;
 }
 
 .cta h2 {
-  text-transform: uppercase;
   margin: auto;
+  text-transform: uppercase;
+  font-weight: 400;
 }
 
 .searchbar {
-  background-color: bisque;
   height: 4rem;
   justify-content: space-between;
   border-bottom: 1px solid lightgray;
   align-items: flex-end;
+  font-weight: 400;
+  color: #817B7B;
 }
 
 .products {
   flex-wrap: wrap;
+  margin-top: 41px;
 }
 
 .product-card {
-  background-color: lightsalmon;
+  /* background-color: lightsalmon; */
   min-height: 375px;
   min-width: 250px;
+  /* border: 1px solid lightblue; */
 }
 
 .product-card img {
-  background-color: lightseagreen;
+  /* background-color: rgb(212, 225, 224); */
   width: 250px;
   height: 375px;
+  border: 0px;
 }
 
 .product-card .product-details {
   margin-top: 30px;
+}
+
+.product-card .product-details p {
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+.product-card .product-card-footer {
+  margin-top: 20px;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.product-card .product-card-footer .button {
+  /* background-color: #0d0d0d; */
+  border: 0px;
+  color: whitesmoke;
+  padding: 8px 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.product-card .product-card-footer .view-more-button {
+  background-color: greenyellow;
 }
 
 .pagination {
@@ -120,8 +149,6 @@ footer .footer-top nav a {
   text-decoration: none;
   color: whitesmoke;
 }
-
-
 
 footer .footer-bottom {
   color: whitesmoke;
