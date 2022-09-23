@@ -1,9 +1,13 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
   margin: 0px;
   padding: 0px;
 }
 
-html, body {
+html,
+body {
   min-height: 100vh;
 }
 
@@ -41,8 +45,11 @@ html, body {
 
 
 .hero {
-  background-color: #939393;
   height: 568px;
+  width: auto;
+  background-image: url(./images/hero_image.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .hero h1 {
@@ -50,6 +57,7 @@ html, body {
   font-weight: 400;
   font-size: 60px;
   text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 .cta {
@@ -74,40 +82,42 @@ html, body {
 .products {
   flex-wrap: wrap;
   margin-top: 41px;
+  justify-content: center;
 }
 
 .product-card {
-  /* background-color: lightsalmon; */
+  flex-direction: column;
   min-height: 375px;
-  min-width: 250px;
-  /* border: 1px solid lightblue; */
+  width: 250px;
 }
 
 .product-card img {
-  /* background-color: rgb(212, 225, 224); */
   width: 250px;
   height: 375px;
   border: 0px;
 }
 
 .product-card .product-details {
-  margin-top: 30px;
+  margin-top: auto;
 }
 
 .product-card .product-details p {
   font-weight: 400;
   font-size: 15px;
   text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  ;
+  overflow-x: hidden;
 }
 
 .product-card .product-card-footer {
   margin-top: 20px;
   gap: 1rem;
   justify-content: space-between;
+  bottom: 0;
 }
 
 .product-card .product-card-footer .button {
-  /* background-color: #0d0d0d; */
   border: 0px;
   color: whitesmoke;
   padding: 8px 16px;
@@ -116,7 +126,11 @@ html, body {
 }
 
 .product-card .product-card-footer .view-more-button {
-  background-color: greenyellow;
+  background-color: #05445e;
+}
+
+.product-card .product-card-footer .add-to-cart-button {
+  background-color: #353434;
 }
 
 .pagination {
