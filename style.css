@@ -1,15 +1,12 @@
 /* Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Roboto&display=swap');
 
 * {
   margin: 0px;
   padding: 0px;
 }
 
-html,
-body {
-  min-height: 100vh;
-}
+
 
 .container {
   padding: 0px 200px;
@@ -126,32 +123,48 @@ body {
 }
 
 .product-card .product-card-footer .view-more-button {
-  background-color: #05445e;
+  background-color: transparent;
+  color: #0d0d0d;
+  border: 1px solid #0d0d0d;
 }
 
 .product-card .product-card-footer .add-to-cart-button {
-  background-color: #353434;
+  background-color: #0d0d0d;
 }
 
 .pagination {
-  background-color: darkslategrey;
+  font-family: 'Crimson Text', serif;
+  background-color: #464646;
+  margin-top: 80px;
   height: 87px;
   justify-content: space-between;
-  color: whitesmoke;
+  align-items: center;
+}
+
+.pagination a {
+  font-size: 17px;
+  color: #888888;
+  font-weight: 400px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 footer {
   background-color: #0d0d0d;
-  padding: 54px 0px;
+  font-family: 'Crimson Text', serif;
+  padding-bottom: 101px !important;
 }
 
 footer h4 {
   text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 footer .footer-top {
   color: whitesmoke;
   justify-content: space-between;
+  padding-top: 54px;
 }
 
 footer .footer-top nav {
@@ -162,25 +175,54 @@ footer .footer-top nav a {
   display: block;
   text-decoration: none;
   color: whitesmoke;
+  line-height: 23px;
+}
+
+footer .footer-top nav a:not(:first-child) {
+  margin-top: 13px;
 }
 
 footer .footer-bottom {
   color: whitesmoke;
-
+  border-top: 1px solid #515151;
+  margin-top: 54px;
+  padding-top: 37px;
 }
 
 footer .footer-bottom .footer-social {
-  background-color: lightskyblue;
   width: 141px;
-  color: whitesmoke;
+}
+
+footer .footer-social .social-icons {
+  margin-top: 12px;
+  gap: .5rem;
+  align-items: center;
 }
 
 footer .footer-bottom .footer-subscribe {
-  background-color: lightyellow;
   margin-left: 93px;
 }
 
+footer .footer-bottom input {
+  margin-top: 29px;
+  background-color: transparent;
+  border: 0px;
+  border-bottom: 1px solid #504F4F;
+  width: 310px;
+  color: #6B6969;
+  line-height: 23px;
+}
+
 footer .footer-bottom .footer-preferences {
-  background-color: lightsteelblue;
   margin-left: auto;
+}
+
+footer .footer-bottom .footer-preferences label {
+  color: #6B6969;
+}
+
+footer .footer-bottom .footer-preferences select {
+  background-color: transparent;
+  border: 0px;
+  color: whitesmoke;
 }
